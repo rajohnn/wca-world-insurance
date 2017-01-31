@@ -1,0 +1,179 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <style>
+
+        label {
+
+            margin-top: 7px;
+
+        }
+
+    </style>
+
+</head>
+
+<body style="padding:20px">
+
+    <div class="row">
+
+        <div class="col-lg-6 col-md-6">
+
+            <h3>Example Form</h3>
+
+            <form>
+
+                <label for="name">Your Name</label>
+
+                <input type="text" class="form-control" placeholder="Enter your name here" id="name" />
+
+                <label for="company">Company</label>
+
+                <input type="text" class="form-control" placeholder="Enter the company name here" id="company" />
+
+                <label for="emailAddress">Email Address</label>
+
+                <input type="text" class="form-control" placeholder="example@domain.com" id="emailAddress" />
+
+                <label for="phone">Phone</label>
+
+                <input type="text" class="form-control" placeholder="555-555-1212" id="phone" />
+
+ 
+
+                <input type="hidden" id="email-list" />
+
+                <hr />
+
+                <h4>
+
+                    I would like to meet with:
+
+                </h4>
+
+                <div class="checkbox">
+
+                    <label><input type="radio" class="check" value="epic_virtue@yahoo.com">Bryce Barnhart</label>
+
+                </div>
+
+                <div class="checkbox">
+
+                    <label><input type="radio" class="check" value="webdesignmia@gmail.com">Monica Lee</label>
+
+                </div>
+
+                <div class="checkbox">
+
+                    <label><input type="radio" class="check" value="r.baker@emailme.com">Richard Kamppari Baker</label>
+
+                </div>
+
+                <div class="checkbox">
+
+                    <label><input type="radio" class="check" value="g.kritz@emailme.com">Greg Kritz</label>
+
+                </div>
+
+                <div class="checkbox">
+
+                    <label><input type="radio" class="check" value="c.castro@emailme.com">Clara Castro</label>
+
+                </div>
+
+                <div class="checkbox">
+
+                    <label><input type="radio" class="check" value="r.dedhia@emailme.com">Ruba Dedhia</label>
+
+                </div>
+
+                <div class="checkbox">
+
+                    <label><input type="radio" class="check" value="a.galbraith@emailme.com">Angua Galbraith</label>
+
+                </div>
+
+                <button id="test" type="button" class="btn btn-primary">Book</button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+
+        $(function () {
+
+            var emails = [];
+
+ 
+
+            $(".check").click(function () {
+
+                var email = $(this)[0].value;
+
+                var isChecked = $(this).prop("checked");
+
+ 
+
+                if (isChecked) {
+
+                    emails.push(email);
+
+                }
+
+                else {
+
+                    removeEmail(emails, email);
+
+                }
+
+ 
+
+                $("#email-list").val(emails.toString());
+
+ 
+
+            });
+
+ 
+
+            $("#test").click(function () {
+
+                var emails = $("#email-list").val();
+
+                alert("Emailing: " + emails);
+
+            });
+
+ 
+
+            function removeEmail(arr, item) {
+
+                for (var i = arr.length; i--;) {
+
+                    if (arr[i] === item) {
+
+                        arr.splice(i, 1);
+
+                    }
+
+                }
+
+            }
+
+        });
+
+    </script>
+
+</body>
+
+</html>

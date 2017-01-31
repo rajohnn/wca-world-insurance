@@ -56,10 +56,10 @@ namespace WorldInsurance {
             string from = email;
             string subject = "World Insurance Website: One-On-One Request";
             string body = String.Format(
-                "Name:{0}{5}" +
-                "Company:{1}{5}" +
-                "Phone: {2}{5}" +
-                "E-Mail:{3}{5}", name, company, phone, email, Environment.NewLine);
+                "Name:{0}{4}" +
+                "Company:{1}{4}" +
+                "Phone: {2}{4}" +
+                "E-Mail:{3}{4}", name, company, phone, email, Environment.NewLine);
 
             int port = 0;
             string host = ConfigurationManager.AppSettings["smtp-host"].ToString();
