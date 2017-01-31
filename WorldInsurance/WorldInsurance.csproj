@@ -400,6 +400,7 @@
     <Content Include="plugins\wow-slider\scripts\fullscreen.ttf" />
     <Content Include="plugins\wow-slider\scripts\fullscreen.woff" />
     <None Include="Properties\PublishProfiles\FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\WorldInsurance - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="images\angus-galbraith.jpg" />
     <Content Include="images\bg_panel.png" />
