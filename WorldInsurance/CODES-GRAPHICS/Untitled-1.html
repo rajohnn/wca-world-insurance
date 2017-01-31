@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type"
+    content="text/html; charset=utf-8" />
+    <title>Fixed Sidebar during scrolling between Header and
+    Footer</title>
+	<style type="text/css">
+#wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+#contentHolder{
+position:relative;
+}
+#header,#footer {
+    background: none repeat scroll 0 0 #CCFFFF;
+    color: #000000;
+    height: 80px;
+    width: 1000px;
+	clear:both;
+	font-size:3em;
+	text-align:center;
+	padding-top:20px;
+}
+.leftsidebar {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #CCCCCC #BBBBBB #888888;
+    border-style: solid;
+    border-width: 1px 2px 2px 1px;
+    margin-bottom: 3px;
+    position: absolute;
+    top: 0;
+	width: 160px;
+}
+.leftsidebarfixed {
+    position: fixed;
+    top: 0;
+}
+.leftsidebar ul {
+    font-weight: bold;
+    list-style-type: none;
+    margin: 2px;
+    padding: 3px;
+}
+.leftsidebar ul li {
+    padding: 3px;
+}
+.leftsidebar ul li a {
+    color: black;
+    text-decoration: none;
+}
+.leftsidebar ul li a:hover {
+    text-decoration: underline;
+}
+.leftsidebar ul li ul {
+    font-weight: normal;
+    list-style-type: circle;
+    margin-left: 10px;
+}
+.leftsidebar ul li ul li {
+}
+.content {
+    float: left;
+    margin-left: 165px;
+    position: relative;
+    width: 570px;
+}
+	
+	</style>	
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js">
+    </script>
+				
+
+
+  </head>
+  <body>
+    <div id="">
+      <div id="">Header</div>
+	 <div id=""> <div class="leftsidebar">
+	  <ul>
+	
+	<li class="cat-item cat-item-13"><a title="Asp.NET, C#, Sharepoint, ADO.NET, VB, Windows app, Web Service " href="http://techbrij.com/category/dev">Programming</a>
+<ul class="children">
+	<li class="cat-item cat-item-118"><a title="View all posts filed under Asp.net" href="http://techbrij.com/category/dev/aspdotnet">ASP.NET</a>
+</li>
+<li class="cat-item cat-item-118"><a title="ASP.NET MVC" href="http://techbrij.com/category/dev/asp-net-mvc">ASP.NET MVC</a>
+</li>
+<li class="cat-item cat-item-308"><a title="Designing Tips" href="http://techbrij.com/category/designer-corner/html-css">HTML, CSS</a>
+</li>
+<li class="cat-item cat-item-221"><a title="javascript-jquery tips" href="http://techbrij.com/category/designer-corner/javascript-jquery">Javascript, jQuery</a>
+</li>
+<li class="cat-item cat-item-310"><a title="View all posts filed under Windows app" href="http://techbrij.com/category/dev/windows-app">Windows App</a>
+</li>
+	<li class="cat-item cat-item-112"><a title="View all posts filed under Sharepoint" href="http://techbrij.com/category/dev/sharepoint-net">Sharepoint</a>
+</li>		
+
+</ul>
+</li>
+	<li class="cat-item cat-item-43"><a title="Blogging Tips and Tricks" href="http://techbrij.com/category/blogger-general-2">Blogging</a>
+<ul class="children">
+<li class="cat-item cat-item-24"><a title="Wordpress tips and tricks" href="http://techbrij.com/category/blogger-general-2/wordpress">Wordpress</a>
+</li>
+	<li class="cat-item cat-item-306"><a title="google blogger tips" href="http://techbrij.com/category/blogger-general-2/blogger-blogger-general-2">Blogger</a>
+</li>
+	<li class="cat-item cat-item-307"><a title="SEO Tips" href="http://techbrij.com/category/blogger-general-2/seo-blogger-general-2">SEO Tips</a>
+</li>
+
+</ul>
+</li>
+<li class="cat-item cat-item-249"><a title="developer designer tools &amp; utilities" href="http://techbrij.com/category/tools-utilities">Internet</a>
+<ul class="children">
+<li class="cat-item cat-item-249"><a title="developer designer tools &amp; utilities" href="http://techbrij.com/category/tools-utilities">Online Utilities</a>
+</li>	
+<li class="cat-item cat-item-309"><a title="firefox add-ons &amp; plugins" href="http://techbrij.com/category/firefox-add-ons">Firefox Add-ons</a>
+</li>
+</ul>	
+</li>
+	<li class="cat-item cat-item-19"><a title="Free Projects Download" href="http://techbrij.com/projects/">Projects</a>
+
+<ul class="children">
+
+<li><a title="Online BUS RESERVATION SYSTEM" href="http://techbrij.com/project/online-bus-reservation-system-in-asp-net-c" class="rsswidget">Online Bus Reservation System</a></li>
+
+<li><a title="MATRIMONIAL MANAGEMENT Project" href="http://techbrij.com/project/matrimonial-management-project-in-asp-net" class="rsswidget">Matrimonial Management</a></li>
+
+<li><a title="STUDY CENTER MANAGEMENT" href="http://techbrij.com/project/study-center-management-in-asp-net-c" class="rsswidget">Study Center Management</a></li>
+
+<li><a title="VB6 Chart Generator Project" href="http://techbrij.com/project/vb6-chart-generator-project" class="rsswidget">VB6 Chart Generator </a></li>
+
+
+
+</ul></li>	
+
+<li class="cat-item cat-item-19"><a title="PortFolio" href="http://techbrij.com/category/portfolio">Portfolio</a>
+<ul class="children">
+<li class="cat-item cat-item-19"><a title="BrijPad" href="http://techbrij.com/brijpad/">BrijPad: An Online Fast development Editor</a></li>
+<li><a title=".NET Search Engine" href="http://techbrij.com/nb/" class="rsswidget">NetBrij: A Search Engine for .NET Devs</a></li>
+
+<li class="cat-item cat-item-19"><a title="wordpress twitter plugin" href="http://techbrij.com/category/portfolio/tweets-by-post">Tweets By Post: Wordpress Plugin</a></li>
+<li class="cat-item cat-item-19"><a title="dammani family tree" href="http://dammani.techbrij.com">Dammani Family Tree</a></li>
+</ul></li>
+</ul>
+	  
+	  
+	  
+	  
+	  </div>
+      <div class="content">
+	  <div style="width: 100%;"><a style="background-color: gray; color: white; display: block; font-size: 18px; font-weight: bold; margin: 7px; min-width: 300px; padding: 10px; text-align: center; width: 320px;" target="_blank" href="http://techbrij.com/733/fixed-sidebar-scrolling-jquery-div">View Article</a></div>
+	  
+	  <ol style="display:block">
+	  <li>
+	  
+	  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lorem tellus, facilisis id facilisis vel, volutpat et augue. Nullam eget felis nec tellus convallis auctor. Integer quis lacus nec arcu ultricies dictum. Proin augue dui, malesuada sed fermentum a, volutpat sit amet ante. Ut volutpat dignissim venenatis. Maecenas tempor facilisis pharetra. Aenean tincidunt quam sed odio venenatis viverra. Vivamus dapibus mollis ornare. Nam sit amet mi sit amet libero ultrices tincidunt. Curabitur felis enim, venenatis quis tincidunt vel, porttitor nec nibh. Aliquam erat volutpat. Ut tempus adipiscing ultricies. Ut eleifend urna at urna tristique tincidunt.
+</li><li>
+Donec vitae sapien in sapien venenatis sodales ut at dolor. Vivamus congue pretium porttitor. Aliquam commodo, metus eu tempus condimentum, ipsum lacus feugiat nunc, euismod ultricies ligula augue euismod nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt dui ac nulla varius convallis. Praesent ornare eros id dolor lacinia id venenatis metus pharetra. Ut ac turpis sodales leo congue semper.
+</li><li>
+Duis adipiscing sem id nibh aliquam viverra. Sed malesuada pharetra tortor a placerat. Proin eget enim libero, non convallis ipsum. Duis non erat magna. Vestibulum posuere accumsan ante. Phasellus in magna ac nisi sollicitudin imperdiet. In hac habitasse platea dictumst. Suspendisse tempus hendrerit risus sit amet vulputate. Nullam tincidunt luctus laoreet. Praesent mollis, nulla sit amet suscipit tincidunt, enim mi vulputate elit, ullamcorper posuere ligula nisl id enim. Suspendisse sapien justo, hendrerit vel bibendum dapibus, aliquet commodo sapien. Cras pulvinar est eu mauris aliquam ultrices.
+</li><li>
+Ut non lacus enim, eget suscipit lectus. Vestibulum lorem orci, molestie vitae volutpat at, dignissim ut turpis. Maecenas lectus augue, blandit non congue vel, varius non nibh. Ut porta orci non nulla ornare vel vehicula tellus facilisis. Donec vehicula elit in est pretium luctus. Nam ornare massa sed dui pretium pretium. In hac habitasse platea dictumst. Vestibulum vulputate augue et erat fermentum quis viverra magna facilisis. Pellentesque tincidunt erat eros. Ut sapien massa, hendrerit a aliquet quis, faucibus sit amet dui.
+</li><li>
+Suspendisse blandit ante vel erat fringilla porttitor. Praesent quis nisi diam. Pellentesque eu augue enim. Morbi nisi turpis, imperdiet in convallis sit amet, fermentum quis lorem. Ut quis felis a lorem laoreet iaculis eu vel sapien. Donec aliquam dui et mi convallis iaculis. Praesent id mauris velit. Ut vitae neque ut nunc posuere fermentum. Nullam eleifend tellus id nisl vestibulum porttitor. In commodo hendrerit augue, nec convallis dui facilisis posuere. Pellentesque nec cursus enim. Praesent lobortis ligula urna, at bibendum sapien.
+</li><li>
+Fusce sodales luctus nibh, id aliquam eros gravida ac. Aliquam in velit vitae massa ultricies tempor ac pretium augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque pretium posuere neque. Quisque volutpat erat velit. Suspendisse at orci a urna iaculis gravida vitae in ipsum. Sed fermentum tellus nec sem fringilla sed volutpat dolor consequat. Nulla facilisi. Integer sit amet metus nec est imperdiet gravida in ac est.
+</li><li>
+In placerat, turpis a facilisis mattis, ligula erat mollis quam, vel iaculis risus nunc a risus. Maecenas vestibulum ligula et lacus tempus id pharetra sem suscipit. Sed gravida ligula ac purus rhoncus in sodales mauris accumsan. Proin non arcu in dolor facilisis blandit. Curabitur tempus dui sit amet quam accumsan pretium. Fusce molestie blandit tortor id tempor. Praesent tempus fringilla ante, sed tristique nunc varius ut. Vivamus velit magna, aliquam imperdiet euismod et, condimentum id dolor. Maecenas eget arcu tellus. Fusce at ante at velit cursus ultrices. Integer enim lacus, rhoncus ut vulputate vel, consequat id augue. Phasellus vitae velit libero, id gravida leo.
+</li><li>
+Nulla at dictum neque. Pellentesque ac nunc a quam molestie cursus. Nulla tincidunt sem ut ante tincidunt vehicula. Pellentesque bibendum aliquet varius. Etiam eu massa ante. Mauris tristique vestibulum lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus dolor massa, sodales et rhoncus quis, consequat vitae magna. Nam at purus mauris, eu iaculis felis. Maecenas ut risus leo, fringilla sodales enim. Nulla placerat turpis vel neque auctor sollicitudin. Ut varius orci at magna dictum consectetur congue ac enim. Nulla malesuada imperdiet nulla, nec tincidunt mi pretium in.
+</li><li>
+Nam sed neque eros, sit amet mattis tortor. Nullam suscipit dui vitae tortor mollis fermentum. Morbi eget dapibus ipsum. Nullam vitae justo sagittis enim accumsan imperdiet sit amet vitae odio. Nullam id velit in sem viverra volutpat. Fusce vel luctus justo. Curabitur sit amet nulla sed nisl tincidunt blandit.
+</li><li>
+In fringilla mauris ac neque dapibus placerat pharetra ac nibh. Sed non nisl sit amet sem pulvinar congue. Donec id felis in purus fringilla dictum in tincidunt nibh. Aliquam semper imperdiet elit eget pellentesque. Sed in sapien sem, ut faucibus erat. Mauris dolor risus, vulputate quis interdum dapibus, lacinia vitae leo. Donec at felis sit amet ligula facilisis pellentesque a non diam. Nunc pretium mattis molestie. Quisque ullamcorper, velit id vulputate rutrum, tortor nunc suscipit elit, ut sodales augue ante eget tortor. Proin leo est, rhoncus vel sagittis vitae, scelerisque sit amet massa. Duis rutrum felis a velit volutpat faucibus. Nulla facilisi. Nam ac elit non ligula consequat rutrum. Ut ac velit et tortor mollis iaculis eget sed ipsum. Nunc ultricies mollis nunc, vitae cursus velit ultricies nec. Phasellus blandit turpis ac augue pulvinar in condimentum turpis congue. 
+</li>
+<li>
+	  
+	  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lorem tellus, facilisis id facilisis vel, volutpat et augue. Nullam eget felis nec tellus convallis auctor. Integer quis lacus nec arcu ultricies dictum. Proin augue dui, malesuada sed fermentum a, volutpat sit amet ante. Ut volutpat dignissim venenatis. Maecenas tempor facilisis pharetra. Aenean tincidunt quam sed odio venenatis viverra. Vivamus dapibus mollis ornare. Nam sit amet mi sit amet libero ultrices tincidunt. Curabitur felis enim, venenatis quis tincidunt vel, porttitor nec nibh. Aliquam erat volutpat. Ut tempus adipiscing ultricies. Ut eleifend urna at urna tristique tincidunt.
+</li><li>
+Donec vitae sapien in sapien venenatis sodales ut at dolor. Vivamus congue pretium porttitor. Aliquam commodo, metus eu tempus condimentum, ipsum lacus feugiat nunc, euismod ultricies ligula augue euismod nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt dui ac nulla varius convallis. Praesent ornare eros id dolor lacinia id venenatis metus pharetra. Ut ac turpis sodales leo congue semper.
+</li><li>
+Duis adipiscing sem id nibh aliquam viverra. Sed malesuada pharetra tortor a placerat. Proin eget enim libero, non convallis ipsum. Duis non erat magna. Vestibulum posuere accumsan ante. Phasellus in magna ac nisi sollicitudin imperdiet. In hac habitasse platea dictumst. Suspendisse tempus hendrerit risus sit amet vulputate. Nullam tincidunt luctus laoreet. Praesent mollis, nulla sit amet suscipit tincidunt, enim mi vulputate elit, ullamcorper posuere ligula nisl id enim. Suspendisse sapien justo, hendrerit vel bibendum dapibus, aliquet commodo sapien. Cras pulvinar est eu mauris aliquam ultrices.
+</li><li>
+Ut non lacus enim, eget suscipit lectus. Vestibulum lorem orci, molestie vitae volutpat at, dignissim ut turpis. Maecenas lectus augue, blandit non congue vel, varius non nibh. Ut porta orci non nulla ornare vel vehicula tellus facilisis. Donec vehicula elit in est pretium luctus. Nam ornare massa sed dui pretium pretium. In hac habitasse platea dictumst. Vestibulum vulputate augue et erat fermentum quis viverra magna facilisis. Pellentesque tincidunt erat eros. Ut sapien massa, hendrerit a aliquet quis, faucibus sit amet dui.
+</li><li>
+Suspendisse blandit ante vel erat fringilla porttitor. Praesent quis nisi diam. Pellentesque eu augue enim. Morbi nisi turpis, imperdiet in convallis sit amet, fermentum quis lorem. Ut quis felis a lorem laoreet iaculis eu vel sapien. Donec aliquam dui et mi convallis iaculis. Praesent id mauris velit. Ut vitae neque ut nunc posuere fermentum. Nullam eleifend tellus id nisl vestibulum porttitor. In commodo hendrerit augue, nec convallis dui facilisis posuere. Pellentesque nec cursus enim. Praesent lobortis ligula urna, at bibendum sapien.
+</li><li>
+Fusce sodales luctus nibh, id aliquam eros gravida ac. Aliquam in velit vitae massa ultricies tempor ac pretium augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque pretium posuere neque. Quisque volutpat erat velit. Suspendisse at orci a urna iaculis gravida vitae in ipsum. Sed fermentum tellus nec sem fringilla sed volutpat dolor consequat. Nulla facilisi. Integer sit amet metus nec est imperdiet gravida in ac est.
+</li><li>
+In placerat, turpis a facilisis mattis, ligula erat mollis quam, vel iaculis risus nunc a risus. Maecenas vestibulum ligula et lacus tempus id pharetra sem suscipit. Sed gravida ligula ac purus rhoncus in sodales mauris accumsan. Proin non arcu in dolor facilisis blandit. Curabitur tempus dui sit amet quam accumsan pretium. Fusce molestie blandit tortor id tempor. Praesent tempus fringilla ante, sed tristique nunc varius ut. Vivamus velit magna, aliquam imperdiet euismod et, condimentum id dolor. Maecenas eget arcu tellus. Fusce at ante at velit cursus ultrices. Integer enim lacus, rhoncus ut vulputate vel, consequat id augue. Phasellus vitae velit libero, id gravida leo.
+</li><li>
+Nulla at dictum neque. Pellentesque ac nunc a quam molestie cursus. Nulla tincidunt sem ut ante tincidunt vehicula. Pellentesque bibendum aliquet varius. Etiam eu massa ante. Mauris tristique vestibulum lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus dolor massa, sodales et rhoncus quis, consequat vitae magna. Nam at purus mauris, eu iaculis felis. Maecenas ut risus leo, fringilla sodales enim. Nulla placerat turpis vel neque auctor sollicitudin. Ut varius orci at magna dictum consectetur congue ac enim. Nulla malesuada imperdiet nulla, nec tincidunt mi pretium in.
+</li><li>
+Nam sed neque eros, sit amet mattis tortor. Nullam suscipit dui vitae tortor mollis fermentum. Morbi eget dapibus ipsum. Nullam vitae justo sagittis enim accumsan imperdiet sit amet vitae odio. Nullam id velit in sem viverra volutpat. Fusce vel luctus justo. Curabitur sit amet nulla sed nisl tincidunt blandit.
+</li><li>
+In fringilla mauris ac neque dapibus placerat pharetra ac nibh. Sed non nisl sit amet sem pulvinar congue. Donec id felis in purus fringilla dictum in tincidunt nibh. Aliquam semper imperdiet elit eget pellentesque. Sed in sapien sem, ut faucibus erat. Mauris dolor risus, vulputate quis interdum dapibus, lacinia vitae leo. Donec at felis sit amet ligula facilisis pellentesque a non diam. Nunc pretium mattis molestie. Quisque ullamcorper, velit id vulputate rutrum, tortor nunc suscipit elit, ut sodales augue ante eget tortor. Proin leo est, rhoncus vel sagittis vitae, scelerisque sit amet massa. Duis rutrum felis a velit volutpat faucibus. Nulla facilisi. Nam ac elit non ligula consequat rutrum. Ut ac velit et tortor mollis iaculis eget sed ipsum. Nunc ultricies mollis nunc, vitae cursus velit ultricies nec. Phasellus blandit turpis ac augue pulvinar in condimentum turpis congue. 
+</li>
+
+	  </ol>
+	  <div style="width: 100%;"><a style="background-color: gray; color: white; display: block; font-size: 18px; font-weight: bold; margin: 7px; min-width: 300px; padding: 10px; text-align: center; width: 320px;" target="_blank"  href="http://techbrij.com/733/fixed-sidebar-scrolling-jquery-div">View Article</a></div>
+	  
+	  
+	  </div>
+	  </div>
+      <div id="footer">Footer</div>
+    </div>
+    <script type="text/javascript">
+	$(function () {
+  
+  var msie6 = $.browser == 'msie' && $.browser.version < 7;
+  
+  if (!msie6 && $('.leftsidebar').offset()!=null) {
+    var top = $('.leftsidebar').offset().top - parseFloat($('.leftsidebar').css('margin-top').replace(/auto/, 0));
+	var height = $('.leftsidebar').height();
+	var winHeight = $(window).height();	
+	var footerTop = $('#footer').offset().top - parseFloat($('#footer').css('margin-top').replace(/auto/, 0));
+	var gap = 7;
+    $(window).scroll(function (event) {
+      // what the y position of the scroll is
+      var y = $(this).scrollTop();
+      
+      // whether that's below the form
+      if (y+winHeight >= top+ height+gap && y+winHeight<=footerTop) {
+        // if so, ad the fixed class
+        $('.leftsidebar').addClass('leftsidebarfixed').css('top',winHeight-height-gap +'px');
+      } 
+	  else if (y+winHeight>footerTop) {
+        // if so, ad the fixed class
+       $('.leftsidebar').addClass('leftsidebarfixed').css('top',footerTop-height-y-gap+'px');
+      } 
+	  else 	  
+	  {
+        // otherwise remove it
+        $('.leftsidebar').removeClass('leftsidebarfixed').css('top','0px');
+      }
+    });
+  }  
+});
+
+	
+	</script>
+  </body>
+</html>
+

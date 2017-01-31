@@ -1,0 +1,254 @@
+@media only screen and (max-width: 767px) {
+h1, #Subheader .title, .text-logo #logo {
+    font-size: 45px;
+    line-height: 45px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.header-stack #Top_bar {
+	border-top: solid 7px #1F346D;
+    margin-top: 0px;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.home-section-space {
+    padding-top: 25px;
+}
+
+.sections_style_4 {
+	background-color: rgba(255,255,255,0.7);
+}
+
+.hrmargin_b_60, p.hrmargin_b_60, hr.hrmargin_b_60, div.hrmargin_b_60, h2.hrmargin_b_60, h3.hrmargin_b_60, h4.hrmargin_b_60, h5.hrmargin_b_60, h6.hrmargin_b_60 {
+    margin: 0 auto 5px;
+}
+
+.hrmargin_b_40, p.hrmargin_b_40, hr.hrmargin_b_40, div.hrmargin_b_40, h2.hrmargin_b_40, h3.hrmargin_b_40, h4.hrmargin_b_40, h5.hrmargin_b_40, h6.hrmargin_b_40 {
+    margin: 0 auto 20px;
+}
+
+.learnmore-padding {
+	margin-top:0px !important;
+}
+
+.main-service-icons {
+    padding: 20px;
+}
+
+.service-icons {
+    padding: 20px;
+}
+
+#Subheader {
+    padding: 50px 0px;
+}
+
+.side-quote {
+    border: 7px solid #27A8E1;
+    padding: 1.2em;;
+  position: relative;
+}
+
+.side-quote :before{
+	    border: 7px solid #253A71;
+		  background: none;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  pointer-events: none;
+}
+
+.bottom-content-space {
+	padding-top:0px; padding-bottom:50px;
+}
+
+.team-img {
+	width:100%;
+}
+
+.home-top {
+	padding-top:40px; 
+	padding-bottom:0px; 
+	border-top:50px solid #1F346D; 
+	border-bottom:50px solid #1F346D;
+}
+
+}
+
+
+
+@media only screen and (max-width: 959px) and (min-width: 768px) {
+	
+#Wrapper {
+	overflow:visible;
+	}
+	
+#Subheader {
+	padding: 190px 0px 60px;
+}
+
+h1, #Subheader .title, .text-logo #logo {
+    font-size: 50px;
+    line-height: 50px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.home-section-space {
+    padding-top: 35px;
+}
+
+.home-divide {
+	border-bottom:40px solid #1F346D;
+}
+
+.sections_style_4 {
+	background-color: rgba(255,255,255,0.7);
+}
+
+.hrmargin_b_60, p.hrmargin_b_60, hr.hrmargin_b_60, div.hrmargin_b_60, h2.hrmargin_b_60, h3.hrmargin_b_60, h4.hrmargin_b_60, h5.hrmargin_b_60, h6.hrmargin_b_60 {
+    margin: 0 auto 5px;
+}
+
+.hrmargin_b_40, p.hrmargin_b_40, hr.hrmargin_b_40, div.hrmargin_b_40, h2.hrmargin_b_40, h3.hrmargin_b_40, h4.hrmargin_b_40, h5.hrmargin_b_40, h6.hrmargin_b_40 {
+    margin: 0 auto 20px;
+}
+
+.main-service-icons {
+    padding: 10px;
+	width:50%;
+}
+
+.learnmore-padding {
+    margin-top: 25px;
+}
+
+.tablet-divider {
+	width:60%;
+}
+
+.service-icons {
+    padding: 20px;
+}
+
+.chart-icon {
+	margin-top:0px; 
+	padding-right:20px;
+	width: 25%;
+}
+
+.bottom-content-space {
+	padding-top:0px; padding-bottom:100px;
+}
+
+.home-top {
+	padding-top:40px; 
+	padding-bottom:0px; 
+	border-top:170px solid #1F346D; 
+	border-bottom:50px solid #1F346D;
+}
+
+.leadership-single-text {
+    padding: 10px 0px;
+    font-size: 100%;
+}
+
+h5 {
+    font-size: 14px;
+    line-height: 23px;
+}
+
+
+
+.cargo-link {
+	display: block;
+	background: url('../images/cargo-icon.png');
+		width:105px;
+	height:105px;
+	background-size: 105px 105px;
+    background-repeat: no-repeat;
+		text-indent: -99999px;
+}
+.cargo-link:hover {
+   background-image: url('../images/cargo-icon_hover.png');
+	background-size: 105px 105px;
+	background-repeat: no-repeat;
+}
+
+
+
+.bonds-link {
+	display: block;
+	background: url('../images/bonds-icon.png');
+		width:105px;
+	height:105px;
+	background-size: 105px 105px;
+	background-repeat: no-repeat;
+		text-indent: -99999px;
+}
+.bonds-link:hover {
+   background-image: url('../images/bonds-icon_hover.png');
+	background-size: 105px 105px;
+	background-repeat: no-repeat;
+}
+
+.claims-link {
+	display: block;
+	background: url('../images/claims-icon.png');
+		width:105px;
+	height:105px;
+	background-size: 105px 105px;
+	background-repeat: no-repeat;
+		text-indent: -99999px;
+}
+.claims-link:hover {
+   background-image: url('../images/claims-icon_hover.png');
+	background-size: 105px 105px;
+	background-repeat: no-repeat;
+}
+
+
+.fsl-link {
+	display: block;
+	width:105px;
+	height:105px;
+	background: url('../images/fsl-icon.png');
+	background-size: 105px 105px;
+	background-repeat: no-repeat;
+	text-indent: -99999px;
+}
+.fsl-link:hover {
+   background-image: url('../images/fsl-icon_hover.png');
+	background-size: 105px 105px;
+	background-repeat: no-repeat;
+}
+
+.stickit {
+    position: fixed;
+    top: 0;
+	max-width: 160px;
+;
+}
+
+.stickit-end {
+    bottom: 40px;
+    position: absolute;
+	max-width: 160px;
+}
+
+
+}
