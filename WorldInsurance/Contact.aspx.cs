@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Net.Mail;
 using System.Configuration;
+using System.Net;
 
 namespace WorldInsurance {
 
@@ -63,16 +64,18 @@ namespace WorldInsurance {
 
             int port = 0;
             string host = ConfigurationManager.AppSettings["smtp-host"].ToString();
+            string username = ConfigurationManager.AppSettings["smtp-username"].ToString();
+            string password = ConfigurationManager.AppSettings["smtp-password"].ToString();
             Int32.TryParse(ConfigurationManager.AppSettings["smtp-port"].ToString(), out port);
            
-            SmtpClient smtpClient = new SmtpClient(host, port);
-            smtpClient.UseDefaultCredentials = true;
+            var client = new SmtpClient(host, port);
+            client.Credentials = new NetworkCredential(username, password);             
+            client.EnableSsl = false;
 
-
-            MailMessage message = new MailMessage(email, toEmail);
+            var message = new MailMessage(email, "rick.johnn@sabertoothweb.com"); // toEmail);
             message.Subject = subject;
             message.Body = body;
-            smtpClient.Send(message);
+            client.Send(message);
         }
     }
 }
