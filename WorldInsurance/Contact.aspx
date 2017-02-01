@@ -306,7 +306,7 @@
                                                                             <asp:RadioButton cssclass="cfgen-form-value" Text="Monica Lee" ID="contact2" ToolTip="monica@worldinsuranceagency.com" runat="server" GroupName="Contact" />
                                                                         </div>
                                                                         <div class="cfgen-option-content cfgen-option-radio cfgen-element-4-9-option-content">
-                                                                            <asp:RadioButton CssClass="cfgen-form-value" Text="Richard-Kamppari-Baker" ID="contact3" ToolTip="richard@worldinsuranceagency.com" runat="server" GroupName="Contact" />
+                                                                            <asp:RadioButton CssClass="cfgen-form-value" Text="Richard Kamppari Baker" ID="contact3" ToolTip="richard@worldinsuranceagency.com" runat="server" GroupName="Contact" />
                                                                         </div>
                                                                         <div class="cfgen-option-content cfgen-option-radio cfgen-element-4-9-option-content">
                                                                             <asp:RadioButton CssClass="cfgen-form-value" Text="Greg Kritz" ID="contact4" ToolTip="greg@worldinsuranceagency.com" runat="server" GroupName="Contact" />
@@ -318,7 +318,7 @@
                                                                             <asp:RadioButton cssclass="cfgen-form-value" Text="Ruba Dedhia" ID="contact6" ToolTip="rupa@worldinsuranceagency.com" runat="server" GroupName="Contact"/>
                                                                         </div>
                                                                         <div class="cfgen-option-content cfgen-option-radio cfgen-element-4-9-option-content">
-                                                                            <asp:RadioButton cssclass="cfgen-form-value" Text="Angus-Galbraith" ID="contact7" ToolTip="angus@worldinsuranceagency.com" runat="server" GroupName="Contact"/>
+                                                                            <asp:RadioButton cssclass="cfgen-form-value" Text="Angus Galbraith" ID="contact7" ToolTip="angus@worldinsuranceagency.com" runat="server" GroupName="Contact"/>
                                                                         </div>
                                                                     </div>
                                                                 </div>
