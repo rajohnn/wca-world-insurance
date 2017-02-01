@@ -13,6 +13,7 @@ input[type=radio   ]:not(old) + label{
   padding-left : 28px;
   background   : url('images/checks.png') no-repeat 0 0;
   line-height  : 21px;
+  font-size:16px;
 }
 
 input[type=checkbox]:not(old):checked + label{
