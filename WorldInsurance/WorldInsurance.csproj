@@ -399,6 +399,7 @@
     <Content Include="plugins\wow-slider\scripts\fullscreen.eot" />
     <Content Include="plugins\wow-slider\scripts\fullscreen.ttf" />
     <Content Include="plugins\wow-slider\scripts\fullscreen.woff" />
+    <Content Include="images\NVOCC download.pdf" />
     <None Include="Properties\PublishProfiles\FTP.pubxml" />
     <None Include="Properties\PublishProfiles\WorldInsurance - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
