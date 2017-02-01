@@ -1,9 +1,88 @@
+.home-top-btns {
+	padding-right: 28%; 
+	border-top: 0px solid #c3d8e0; 
+	margin-top: -60px; 
+	margin-bottom: 15px;
+}
+
+.form-title {
+font-size: 200%;	
+}
+
+
 @media only screen and (max-width: 767px) {
 h1, #Subheader .title, .text-logo #logo {
     font-size: 45px;
     line-height: 45px;
     text-transform: uppercase;
     padding-bottom: 20px;
+}
+
+
+a.button_large .button_label {
+    min-width: 200px;
+	text-align: center;
+}
+
+body {
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.side-quote1 {
+    width: 75% !important;
+}
+
+.section_wrapper .column {
+    font-size: 17px;
+    line-height: 17px;
+}
+
+#contactWrapper	input[type="text"], #contactWrapper input[type="url"], #contactWrapper	select, #contactWrapper	textarea {
+    padding: 5px !important;
+}
+
+#contactWrapper h1, #Subheader .title {
+    font-size: 25px;
+    line-height: 25px;
+    text-transform: uppercase;
+    padding-bottom: 0px;
+}
+
+.form-title {
+font-size: 100% !important;	
+}
+
+#cfgen-form-2 .cfgen-e-c {
+	margin-bottom: 5px !important;
+}
+
+input[type="checkbox"]:not(old) + label, input[type="radio"]:not(old) + label {
+    font-size: 13px !important;
+	 margin-left: -10px !important;
+}
+
+.hide-text {
+display: none;	
+}
+
+#cfgen-form-1 .cfgen-label {
+    line-height: 15px !important;
+}
+
+.popup {
+    margin: 5px auto !important;
+}
+
+.leadership-single-text {
+    font-size: 100% !important;
+}
+
+.home-top-btns {
+	padding-right: 0%; 
+	border-top: 0px solid #c3d8e0; 
+	margin-top: 0px; 
+	margin-bottom: 15px;
 }
 
 .header-stack #Top_bar {
@@ -96,11 +175,42 @@ h2 {
 	padding: 190px 0px 60px;
 }
 
+
+.side-quote {
+    border: 10px solid #27A8E1;
+    padding: 1.1em;
+    position: relative;
+    margin-left: -30px !important;
+    background-color: #fff;
+}
+
+.popup {
+    width: 70% !important;
+}
+
+.home-top-btns {
+    padding-right: 0%;
+    margin-top: -120px;
+    padding-left: 40%;
+}
+
+
+.side-quote1 {
+    padding: 1.5em;
+    width: 84% !important;
+}
+
+
+input[type=checkbox]:not(old) + label, input[type=radio ]:not(old) + label {
+    font-size: 11px !important;
+}
+
 h1, #Subheader .title, .text-logo #logo {
     font-size: 50px;
     line-height: 50px;
     text-transform: uppercase;
     padding-bottom: 20px;
+	margin-left:-25px;
 }
 
 h2 {

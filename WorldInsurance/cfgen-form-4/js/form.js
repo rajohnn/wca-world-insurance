@@ -1,5 +1,5 @@
 jQuery(function(){
-    debugger;
+	
 	var form = jQuery('#cfgen-form-4');
 	
 	function cfgen_isScrolledIntoView(elem){

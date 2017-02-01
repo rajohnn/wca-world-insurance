@@ -2,7 +2,7 @@
 $cfg['debug'] = false;
 
 // This is the email address where you will receive the notification message
-$cfg['email_address'] = $_POST['radio'];
+$cfg['email_address'] = .$_POST['radio'];
 
 $cfg['email_from'] = '';
 

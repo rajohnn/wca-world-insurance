@@ -148,25 +148,6 @@
 #cfgen-form-3 .cfgen-validationmessage{
 	max-width:100%;
 }
-@media only screen and (min-width: 320px), only screen and (max-width: 320px){
-.cfgen-form-container{
-	width:100%;
-	margin:2px auto;
-}
-
-}
-@media only screen and (min-width: 480px){
-.cfgen-form-container{
-	width:440px;
-}
-
-}
-@media only screen and (min-width: 600px){
-.cfgen-form-container{
-	width:580px;
-}
-
-}
 @media only screen and (min-width: 768px){
 .cfgen-form-container{
 	width:100%;

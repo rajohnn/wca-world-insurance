@@ -148,25 +148,8 @@
 #cfgen-form-4 .cfgen-validationmessage{
 	max-width:100%;
 }
-@media only screen and (min-width: 320px), only screen and (max-width: 320px){
-.cfgen-form-container{
-	width:300px;
-	margin:2px auto;
-}
 
-}
-@media only screen and (min-width: 480px){
-.cfgen-form-container{
-	width:440px;
-}
 
-}
-@media only screen and (min-width: 600px){
-.cfgen-form-container{
-	width:580px;
-}
-
-}
 @media only screen and (min-width: 768px){
 .cfgen-form-container{
 	width:100%;
@@ -181,6 +164,7 @@
 	line-height:25px;
 	color:#626262;
 	margin-bottom:2px;
+	border: 0px;
 }
 #cfgen-form-4 .cfgen-input-group textarea,
 #cfgen-form-4 .cfgen-input-group input[type="text"],
