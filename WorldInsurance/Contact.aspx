@@ -163,7 +163,7 @@
                                                     <div class="image_frame no_link scale-with-grid no_border aligncenter"><img src="images/gregory-kritz.jpg" alt="" border="0" class="scale-with-grid" /></div>
                                                 </div>
                                                 <div class="column three-fourth leadership-single-text">
-                                                    <strong>Greg Kritz</strong>, Startegic Advisor<br />
+                                                    <strong>Greg Kritz</strong>, Strategic Advisor<br />
                                                     <a href="mailto:greg@worldinsuranceagency.com">greg@worldinsuranceagency.com</a><br />
                                                     +1 954 632 1083
                                                 </div>
