@@ -117,7 +117,7 @@ namespace WorldInsurance {
                 client.Credentials = new NetworkCredential(username, password);
                 client.EnableSsl = false;
 
-                var message = new MailMessage(_model.FromEmail, "rick.johnn@sabertoothweb.com"); // _model.ToEmail);
+                var message = new MailMessage(_model.FromEmail, _model.ToEmail);
                 message.Subject = subject;
                 message.Body = body;
                 client.Send(message);
