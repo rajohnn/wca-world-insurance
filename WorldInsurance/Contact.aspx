@@ -172,7 +172,7 @@
                                                 </div>
                                                 <div class="column three-fourth leadership-single-text">
                                                     <strong>Angus Galbraith</strong>, Underwriter<br />
-                                                    <a href="mailto:clara@angus@worldinsuranceagency.com">angus@worldinsuranceagency.com</a><br />
+                                                    <a href="mailto:angus@worldinsuranceagency.com">angus@worldinsuranceagency.com</a><br />
                                                     +44 783-477-3674
                                                 </div>
                                             </div>
@@ -207,7 +207,7 @@
                                         <div class="column one mobile-padding">
 
                                             <h3>Want to reach us by mail, planning to stop in for a visit? See the map below for our address and directions.</h3>
-                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.165349101943!2d-80.33358788469343!3d26.126151199794936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d909b08bd644dd%3A0xfb300727d264d9!2s440+Sawgrass+Corporate+Pkwy%2C+Sunrise%2C+FL+33325!5e0!3m2!1sen!2sus!4v1482101979408" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.1653491019338!2d-80.3335878847274!3d26.12615119979522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d909b08bd644dd%3A0x506ee7fdf572e329!2s440+Sawgrass+Corporate+Pkwy+%23210%2C+Sunrise%2C+FL+33325!5e0!3m2!1sen!2sus!4v1485978819720" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
                                         </div>
                                         <hr class="no_line hrmargin_b_60" />
 
