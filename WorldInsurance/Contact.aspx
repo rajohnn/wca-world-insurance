@@ -117,7 +117,7 @@
             <!-- Main Content -->
         </div>
         <asp:Panel ID="PanelThankYou" runat="server" Visible="False">
-                    <div style="padding:14px;border: 1px solid #808080;background-color:#eee;margin: 0 20px 10px 20px">
+                    <div style="padding:14px;border: 1px solid #808080;background-color:#eee;margin: 0 20px 40px 20px;text-align:center">
                         <h4>Your one-on-one request was received.</h4>
                         <p>
                             Thank you for getting in touch with us.  We will get back to you as soon
