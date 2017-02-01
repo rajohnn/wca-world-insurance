@@ -400,7 +400,7 @@
     <Content Include="plugins\wow-slider\scripts\fullscreen.ttf" />
     <Content Include="plugins\wow-slider\scripts\fullscreen.woff" />
     <Content Include="images\NVOCC download.pdf" />
-    <None Include="Properties\PublishProfiles\FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\WorldInsurance - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\WorldInsurance - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="images\angus-galbraith.jpg" />
@@ -1160,7 +1160,9 @@
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -116,15 +116,29 @@
             </div>
             <!-- Main Content -->
         </div>
+        <asp:Panel ID="PanelThankYou" runat="server" Visible="False">
+                    <div style="padding:14px;border: 1px solid #808080;background-color:#eee;margin: 0 20px 10px 20px">
+                        <h4>Your one-on-one request was received.</h4>
+                        <p>
+                            Thank you for getting in touch with us.  We will get back to you as soon
+                            as possible.
+                        </p>
+                    </div>
+                </asp:Panel>
         <div id="Content">
+            
             <div class="content_wrapper clearfix">
+                
                 <div class="sections_group">
+                      
                     <div class="entry-content">
                         <div class="section page-wrap">
                             <div class="section_wrapper clearfix container">
+                                   
                                 <div class="items_group clearfix stickem-container">
                                     <!-- Two Thirds (3/4) Column -->
                                     <div class="column three-fourth">
+                                   
                                         <div class="column one mobile-padding">
                                             <h2>We want to hear from you.</h2>
                                             <p>Our customer service team is available 24 hours a day, 7 days a week. To submit a general submission, you can do so using our contact form. Or, you can reach out to one of our fearless leaders. We look forward to hearing from you!</p>
