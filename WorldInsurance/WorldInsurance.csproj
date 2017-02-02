@@ -370,6 +370,8 @@
     <Content Include="images\prettyPhoto\default\Thumbs.db" />
     <Content Include="images\prettyPhoto\facebook\Thumbs.db" />
     <Content Include="images\prettyPhoto\light_rounded\Thumbs.db" />
+    <Content Include="images\Reha 4.JPG" />
+    <Content Include="images\Reha.jpg" />
     <Content Include="images\stripes\Thumbs.db" />
     <Content Include="images\Thumbs.db" />
     <Content Include="index.html" />

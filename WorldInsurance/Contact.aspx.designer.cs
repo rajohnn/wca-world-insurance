@@ -85,15 +85,6 @@ namespace WorldInsurance {
         protected global::System.Web.UI.WebControls.RadioButton contact2;
         
         /// <summary>
-        /// contact3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton contact3;
-        
-        /// <summary>
         /// contact4 control.
         /// </summary>
         /// <remarks>
@@ -101,6 +92,15 @@ namespace WorldInsurance {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton contact4;
+        
+        /// <summary>
+        /// contact7 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton contact7;
         
         /// <summary>
         /// contact5 control.
@@ -112,6 +112,24 @@ namespace WorldInsurance {
         protected global::System.Web.UI.WebControls.RadioButton contact5;
         
         /// <summary>
+        /// contact3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton contact3;
+        
+        /// <summary>
+        /// contact8 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButton contact8;
+        
+        /// <summary>
         /// contact6 control.
         /// </summary>
         /// <remarks>
@@ -119,15 +137,6 @@ namespace WorldInsurance {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton contact6;
-        
-        /// <summary>
-        /// contact7 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButton contact7;
         
         /// <summary>
         /// BookButton control.
