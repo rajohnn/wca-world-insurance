@@ -90,6 +90,10 @@ namespace WorldInsurance {
                 _model.ToEmail = contact7.ToolTip;
             }
 
+            if (this.contact8.Checked) {
+                _model.ToEmail = contact8.ToolTip;
+            }
+
             if (_model.IsModelValid()) {
                 SendEmail();
                 this.PanelThankYou.Visible = true;
